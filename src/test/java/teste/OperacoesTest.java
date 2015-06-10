@@ -30,7 +30,7 @@ public class OperacoesTest {
 		//testeDaniel
 		Assert.assertEquals(2, ret);
 		Operacoes op = new Operacoes(3,3);
-		int ret = op.soma();
+		ret = op.soma();
 		Assert.assertEquals(6, ret);
 	}
 
